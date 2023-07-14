@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	max-width: 1920px;
+	max-height: 1315px;
+	background: #fff;
+	margin: auto;
+    padding: 0 15%;
+}
+
+#mv-logo {
+	color: #3a3a3a;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+    margin-top: 53px;
+    margin-bottom: 74px;
+}
+
+#name {
+	color: #3a3a3a;
+	font-family: Poppins;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 132%;
+	letter-spacing: -0.72px;
+	margin-bottom: 1%;
+}
+
+h2 {
+	color: #ff408c;
+	font-family: Poppins;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 132%;
+	letter-spacing: -1.6px;
+	margin-bottom: 1%;
+}
+
+#country {
+	color: #000;
+	font-family: Poppins;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 132%;
+	letter-spacing: -0.72px;
+	margin-bottom: 1%;
+}
+#details {
+	color: #000;
+	font-family: Poppins, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: 40px;
+    margin-top: 73px;
+    margin-bottom: 28px;
+}
+
+#details h6{
+    font-weight: 400;
+}
+
+p {
+	color: var(--dark, #21243d);
+	text-align: center;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+#contact {
+	color: #3a3a3a;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0.32px;
+}
+#Tools {
+	color: #3a3a3a;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 132%;
+	letter-spacing: -0.4px;
+	margin-bottom: 1%;
+	margin-top: 3%;
+}
+#my-picture {
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+}
+
+.image_div {
+	width: 487px;
+	height: 710px;
+	position: relative;
+}
+
+.my-picture_bg {
+	position: absolute;
+	background-color: #ff408c;
+	width: 484px;
+	height: 705px;
+	left: 27px;
+	top: 27px;
+	z-index: -1;
+}
+
+.bg_image_ico{
+    position: absolute;
+    right: -70px;
+    bottom: -90px;
+    z-index: -2;
+}
+
+.logo{
+	width: 6%;
+	height: 6%;
+	margin-right: 2%;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#layout {
+	float: right;
+	vertical-align: top;
+	width: 484px;
+	height: 705px;
+	flex-shrink: 0;
+}
+
+.content_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    gap: 131px;
+	width: 100%;
+}
+
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 253px;
+}
+
+.footer_text{
+    margin: auto;
+    margin-top: 26px;
+    margin-bottom: 69px;
+}
+
+
+@media screen and (max-width: 1400px) {
+	body {
+		padding: 0 8%;
+	}
+	#mv-logo {
+		margin-bottom: 20px;
+	}
+	#name {
+		font-size: 20px;
+		line-height: normal;
+	}
+    #country{
+        font-size: 20px;
+    }
+	h2 {
+		font-size: 40px;
+	}
+
+	.image_div {
+		width: 330px;
+		height: 450px;
+		position: relative;
+	}
+
+	.my-picture_bg {
+		width: 330px;
+		height: 450px;
+		left: 17px;
+		top: 17px;
+	}
+
+    .content_container{
+        gap: 40px;
+    }
+
+    #details h6{
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    #details{
+        margin-top: 30px;
+    }
+
+    #Tools{
+        font-size: 15px;
+    }
+    .bg_image_ico{
+        width: 90px;
+    }
+
+    .footer_icons{
+        margin-top: 100px;
+        margin-bottom: -10px;
+    }
+
+    .footer_icons svg{
+        width: 25px;
+    }
+}
+
